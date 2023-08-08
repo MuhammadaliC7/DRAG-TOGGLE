@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Muhammadali</title>
+    <style>
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+
+        thead th {
+            background-color: #f2f2f2;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+
+        tbody tr {
+            cursor: grab;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="myTable">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr data-id="1">
+                <td>1</td>
+                <td>RONALDOOO</td>
+                <td>cr7@gmail.com</td>
+            </tr>
+            <tr data-id="2">
+                <td>2</td>
+                <td>Islom</td>
+                <td>mislombek@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
